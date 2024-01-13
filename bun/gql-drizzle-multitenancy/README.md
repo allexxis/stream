@@ -1,4 +1,4 @@
-# express-gql-cache
+# Bun + GQL + Drizzle + Multitenancy
 
 To install dependencies:
 
