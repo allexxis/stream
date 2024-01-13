@@ -43,3 +43,15 @@ query {
    }
 }
 ```
+
+Run the query `systemUsers` to see the data in the table `users` withou tentat.
+
+```graphql
+query {
+   systemUsers {
+      id
+      name
+      email
+   }
+}
+```
