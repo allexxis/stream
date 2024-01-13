@@ -55,3 +55,15 @@ query {
    }
 }
 ```
+
+To insert a user to an specific tentat, run the mutation `inserUser` tenant id will be extracted from context so make sure you add the dummy token to the headers.
+
+```graphql
+mutation {
+   insertUser(name: "John Doe", email: "john@email.com", password: "123") {
+      id
+      name
+      email
+   }
+}
+```
